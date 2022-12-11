@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.734);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+.container{
+    /* making conatiner at center in the page */
+    width: 25%;
+    margin: 10% auto;
+    padding:1rem;
+    background-image: linear-gradient(255deg,#00ff71,#2000ff);
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 10px 10px;
+}
+#cansel-icon{
+    position: relative;
+    float: right;
+    top: -10;
+    right: -10;
+    margin: 3px;
+    padding: 3px 7px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.co-body{
+    padding: 10px 0;
+}
+.co-footer{
+    text-align: center;
+    padding: 5px;
+}
+#sumbit-btn{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+#sumbit-btn:hover,#cansel-icon:hover{
+    background-color: rgba(255, 255, 255, 0.516);
+}
+
+@media (max-width:1024px){
+    main{
+        background-color: rgba(0, 0, 0, 0.734);
+        padding: 10% 0;
+        position: fixed;
+    }
+    .container{
+        /* making conatiner at center in the page */
+        width: 60%;
+    }
+}
